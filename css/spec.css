@@ -1,0 +1,45 @@
+.spec__section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.spec__section h2 {
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    font-weight: normal;
+}
+.spec__container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.spec__container h1 {
+    font-weight: bold;
+}
+.spec__container h4 {
+    font-weight: normal;
+    color: #007bff;
+}
+.spec__container p {
+    font-weight: normal;
+    font-size: 18px;
+    text-align: justify;
+}
+.spec__container li {
+    font-weight: normal;
+}
+.spec__container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.spec__container video {
+    width: 50%;
+    margin: 20px 0 20px 0;
+}
